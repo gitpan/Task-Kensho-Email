@@ -23,4 +23,4 @@ requires:
   Email::Sender: 0
   Email::Simple: 0
   Email::Valid: 0
-version: 0.27
+version: 0.28
