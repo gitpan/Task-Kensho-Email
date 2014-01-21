@@ -4,8 +4,8 @@ package Task::Kensho::Email;
 BEGIN {
   $Task::Kensho::Email::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34-TRIAL-36-gf1a8f44
-$Task::Kensho::Email::VERSION = '0.34001'; # TRIAL
+# git description: v0.34001-TRIAL-10-ge4263c5
+$Task::Kensho::Email::VERSION = '0.34002'; # TRIAL
 # ABSTRACT: Email
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::Email - Email
 
 =head1 VERSION
 
-version 0.34001
+version 0.34002
 
 =head1 SYNOPSIS
 
