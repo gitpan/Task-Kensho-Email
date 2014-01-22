@@ -1,5 +1,5 @@
 {
-   "abstract" : "A Glimpse at an Enlightened Perl: {{ $config_data->{$module}{description} }}",
+   "abstract" : "A Glimpse at an Enlightened Perl: Email",
    "author" : [
       "Chris Prather <chris@prather.org>"
    ],
@@ -41,7 +41,7 @@
       "configure" : {
          "requires" : {
             "ExtUtils::MakeMaker" : "6.30",
-            "Module::Build::Tiny" : "0.033"
+            "Module::Build::Tiny" : "0.034"
          }
       },
       "develop" : {
@@ -49,10 +49,6 @@
             "Dist::Zilla" : "5.012",
             "Dist::Zilla::Plugin::GitHub::Update" : "0",
             "Dist::Zilla::Plugin::GithubMeta" : "0",
-            "Email::MIME::Kit" : "0",
-            "Email::Sender" : "0",
-            "Email::Simple" : "0",
-            "Email::Valid" : "0",
             "File::Spec" : "0",
             "IO::Handle" : "0",
             "IPC::Open3" : "0",
@@ -104,7 +100,7 @@
          "web" : "https://github.com/EnlightenedPerlOrganisation/task-kensho"
       }
    },
-   "version" : "0.34003",
+   "version" : "0.34004",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.019007"
@@ -397,7 +393,7 @@
                      "Email::Simple" : "0",
                      "Email::Valid" : "0"
                   },
-                  "require_develop" : 1,
+                  "require_develop" : 0,
                   "type" : "requires"
                },
                "inc::OptionalFeatureForSubTask" : {

@@ -4,7 +4,7 @@ Task::Kensho::Email - A Glimpse at an Enlightened Perl: Email
 
 # VERSION
 
-version 0.34003
+version 0.34004
 
 # SYNOPSIS
 
