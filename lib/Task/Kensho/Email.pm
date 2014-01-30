@@ -4,8 +4,8 @@ package Task::Kensho::Email;
 BEGIN {
   $Task::Kensho::Email::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34003-TRIAL-9-g3651b4b
-$Task::Kensho::Email::VERSION = '0.34004'; # TRIAL
+# git description: v0.34004-TRIAL-24-g6d0da00
+$Task::Kensho::Email::VERSION = '0.35';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Email
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::Email - A Glimpse at an Enlightened Perl: Email
 
 =head1 VERSION
 
-version 0.34004
+version 0.35
 
 =head1 SYNOPSIS
 
@@ -96,12 +96,6 @@ regarding which modules you wish to install.
 The C<cpanm> client requires interactive mode to be enabled for this to work:
 
     cpanm --interactive Task-Kensho
-
-=head1 RELEASE SCHEDULE
-
-Starting with release 0.18, L<Task::Kensho> was moved to a monthly release
-cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in L<Task::Kensho>.
 
 =head1 BUGS AND LIMITATIONS
 
