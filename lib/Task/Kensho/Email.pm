@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::Email;
-# git description: v0.36-24-g97e1e22
-$Task::Kensho::Email::VERSION = '0.37';
+# git description: v0.37-26-gf01bb65
+$Task::Kensho::Email::VERSION = '0.38';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Email
 
 __END__
@@ -17,7 +17,7 @@ Task::Kensho::Email - A Glimpse at an Enlightened Perl: Email
 
 =head1 VERSION
 
-version 0.37
+version 0.38
 
 =head1 SYNOPSIS
 
